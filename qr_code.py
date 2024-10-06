@@ -8,3 +8,6 @@ qr.add_data(linkedin_link)
 qr.make()
 
 img = qr.make_image(fill_color = 'black', back_color = 'white')
+
+
+img.save('linkedin_qr.png')
